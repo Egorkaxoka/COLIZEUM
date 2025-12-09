@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>COLIZEUM — Компьютерный клуб</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav class="nav">
+        <div class="logo">
+          <div class="logo-mark">
+            <img src="img/logo-colizeum.png" alt="Colizeum">
+        </div>
+          <span>COLIZEUM</span>
+        </div>
+
+        <div class="nav-links">
+          <a class="nav-link" href="#hero">Главная</a>
+          <a class="nav-link" href="#about">О нас</a>
+          <a class="nav-link" href="#map">Карта клуба</a>
+          <a class="nav-link" href="#price">Прайс</a>
+          <a class="nav-link" href="#reviews">Отзывы</a>
+          <a class="nav-link" href="#contacts">Контакты</a>
+        </div>
+
+        <div class="nav-cta">
+          <div class="nav-phone">+7 (925) 399-99-35</div>
+          <button class="btn btn-outline" data-open-app-modal>Приложение</button>
+        </div>
+
+        <button class="nav-burger" id="navBurger" aria-label="Открыть меню">
+          <span></span>
+        </button>
+      </nav>
+
+      <!-- mobile menu -->
+      <div class="nav-mobile" id="navMobile">
+        <a href="#hero">Главная</a>
+        <a href="#about">О нас</a>
+        <a href="#map">Карта клуба</a>
+        <a href="#price">Прайс</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+        <a href="tel:+79253999935">Позвонить</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero / Главная -->
+  <section class="hero" id="hero">
+    <div class="container hero-inner">
+      <div>
+        <div class="tag">Компьютерный клуб COLIZEUM</div>
+        <div class="newyear-badge">
+        🎄 New Year • Ночные катки • Подарки
+        </div>
+        <h1 class="hero-title">
+          Арена для <span class="hero-highlight">настоящих геймеров</span><br>
+        <span style="font-size:14px;color:#ffd500;">
+        Новогодние ночи • Максимальный FPS • Жаркие катки
+        </span>
+
+        </h1>
+        <p class="hero-text">
+          Современный компьютерный клуб с 45 мощными ПК и PlayStation-зонами.
+          Максимальный FPS, удобные кресла и атмосфера настоящей киберарены.
+        </p>
+
+        <div class="hero-badges">
+          <span class="badge">45 игровых ПК</span>
+          <span class="badge">2 PS стандарт + 1 VIP</span>
+          <span class="badge">Киберспортивные дисциплины</span>
+        </div>
+
+        <div class="hero-actions">
+          <button class="btn" data-open-app-modal>
+            Забронировать через приложение
+          </button>
+          <a href="#price" class="btn btn-outline">
+            Смотреть прайс
+          </a>
+        </div>
+        <div class="hero-note">
+          Бронирование мест <span>только через официальное приложение COLIZEUM.</span>
+        </div>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="hero-stat-number">45+</div>
+            <div class="hero-stat-label">Игровых ПК</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-number">3</div>
+            <div class="hero-stat-label">PlayStation зоны</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-number">240–380Hz</div>
+            <div class="hero-stat-label">Мониторы</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-card">
+          <div class="hero-card-title">Конфигурация клубa</div>
+          <div class="hero-card-grid">
+            <div class="hero-card-item">
+              <div class="hero-card-item-title">ПК</div>
+              <div class="hero-card-item-main">i5, 16–32 GB RAM</div>
+            </div>
+            <div class="hero-card-item">
+              <div class="hero-card-item-title">Видеокарты</div>
+              <div class="hero-card-item-main">TI серия, высокий FPS</div>
+            </div>
+            <div class="hero-card-item">
+              <div class="hero-card-item-title">Мониторы</div>
+              <div class="hero-card-item-main">240–380 Hz</div>
+            </div>
+            <div class="hero-card-item">
+              <div class="hero-card-item-title">Консоли</div>
+              <div class="hero-card-item-main">2×PS + 1×VIP PS</div>
+            </div>
+          </div>
+          <div class="hero-card-footnote">
+            Мы следим за актуальностью железа, обновлениями игр и комфортом в зале — тебе остаётся только зайти и начать играть.
+          </div>
+        </div>
+        <div class="hero-card-accent"></div>
+      </div>
+    </div>
+  </section>
+<div class="section-divider"></div>
+
+  <!-- About / О нас -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">О клубе COLIZEUM</h2>
+      <p class="section-subtitle">
+        Пространство, созданное для геймеров. Мы объединили мощное железо, уютный интерьер и киберспортивную атмосферу.
+      </p>
+
+      <div class="about-grid">
+        <div>
+          <p class="about-text">
+            COLIZEUM — это больше, чем просто компьютерный клуб. Здесь встречаются друзья, тиммейты и соперники,
+            а каждый игровой вечер превращается в маленький турнир.
+          </p>
+          <p class="about-text">
+            В клубе установлено <strong>45 современных игровых ПК</strong>, настроенных под киберспортивные дисциплины
+            и высокую частоту кадров. Для любителей консольного гейминга работает <strong>PlayStation-зоны</strong>:
+            две стандартные комнаты и отдельная VIP-комната для камерных посиделок.
+          </p>
+          <p class="about-text">
+            Мы следим за состоянием техники, обновляем популярные игры и заботимся о сервисе, чтобы ты не тратил время на
+            настройки — просто заходи и играй.
+          </p>
+
+          <div class="about-facts">
+            <div class="about-fact">
+              <div class="about-fact-title">45 игровых ПК</div>
+              <div class="about-fact-desc">Топовое железо, стабильный FPS и киберспортивный софт.</div>
+            </div>
+            <div class="about-fact">
+              <div class="about-fact-title">PlayStation-зоны</div>
+              <div class="about-fact-desc">2 стандартные комнаты + 1 VIP-комната для компаний.</div>
+            </div>
+            <div class="about-fact">
+              <div class="about-fact-title">Интернет и комфорт</div>
+              <div class="about-fact-desc">Стабильный канал, удобные кресла.</div>
+            </div>
+            <div class="about-fact">
+              <div class="about-fact-title">Игровая атмосфера</div>
+              <div class="about-fact-desc">Регулярные мини-турниры, ночные катки и дружественная комьюнити.</div>
+            </div>
+            <div class="about-fact">
+              <div class="about-fact-title">Кухня</div>
+              <div class="about-fact-desc">Вкусная еда, идеальна для команд и длителных игровых сессий.</div>
+            </div>
+            <div class="about-fact">
+              <div class="about-fact-title">Кальяны</div>
+              <div class="about-fact-desc">Идеальный вкус и непревзойдённая дымность в любое время.</div>
+            </div>
+
+          </div>
+
+          <div class="about-target">
+            <strong>COLIZEUM подойдёт, если ты:</strong>
+            <ul>
+              <li>играешь в CS2, Dota 2, Valorant и другие игры;</li>
+              <li>любишь играть с друзьями и собирать команду офлайн;</li>
+              <li>ищешь комфортный клуб с атмосферой, а не просто “компы”; </li>
+              <li>хочешь провести вечер, ночной марафон за играми.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="about-media">
+          <div class="about-media-main">
+            <div class="about-media-main-inner">
+              <div>
+                <div class="about-media-tag">Игровой зал</div>
+                <div class="about-media-title">Киберарена COLIZEUM</div>
+                <div class="about-media-specs">
+                  Ровные ряды ПК, мерцающие экраны и звук, который погружает в игру с первых минут.
+                </div>
+              </div>
+              <div class="about-media-footer">
+                Продумана посадка, освещение и климат — чтобы засиживаться до поздней ночи было комфортно.
+              </div>
+            </div>
+          </div>
+          <div class="about-media-small">
+            <strong>Зона PlayStation</strong><br>
+            Уютные диваны, большой экран, кооперативные игры и отдельная VIP-комната под посиделки.
+          </div>
+          <div class="about-media-small">
+            <strong>Зона отдыха</strong><br>
+            Напитки, снеки и пространство для перерывов между катками — клуб, в котором хочется задержаться.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<div class="section-divider"></div>
+  <!-- Map / Карта клуба -->
+<section id="map">
+  <div class="container">
+    <h2 class="section-title">Карта COLIZEUM</h2>
+    <p class="section-subtitle">
+      Нажми на зону на схеме, чтобы увидеть конфигурацию ПК или консоли
+      и фото этой зоны.
+    </p>
+
+    <div class="map-layout">
+      <!-- Левая часть: карта с точками -->
+      <div class="map-image-wrap">
+        <img src="img/Scheme.svg" alt="Схема компьютерного клуба COLIZEUM" class="club-scheme">
+
+        <!-- ==== ТОЧКИ НА КАРТЕ (координаты подгонишь под свою схему) ==== -->
+
+        <!-- SOLO -->
+        <button class="map-hotspot" data-kind="solo" data-label="SOLO 1"
+                style="top: 93%; left: 74%;" aria-label="SOLO 1"></button>
+        <button class="map-hotspot" data-kind="solo" data-label="SOLO 2"
+                style="top: 40%; left: 74.5%;" aria-label="SOLO 2"></button>
+
+        <!-- DUO -->
+        <button class="map-hotspot" data-kind="duo" data-label="DUO 1"
+                style="top: 82%; left: 65%;" aria-label="DUO 1"></button>
+        <button class="map-hotspot" data-kind="duo" data-label="DUO 2"
+                style="top: 65%; left: 65%;" aria-label="DUO 2"></button>
+        <button class="map-hotspot" data-kind="duo" data-label="DUO 3"
+                style="top: 35%; left: 65.5%;" aria-label="DUO 3"></button>
+
+        <!-- TRIO -->
+        <button class="map-hotspot" data-kind="trio" data-label="TRIO 1"
+                style="top: 69%; left: 65%;" aria-label="TRIO 1"></button>
+        <button class="map-hotspot" data-kind="trio" data-label="TRIO 2"
+                style="top: 48%; left: 65%;" aria-label="TRIO 2"></button>
+        <button class="map-hotspot" data-kind="trio" data-label="TRIO 3"
+                style="top: 26.5%; left: 47%;" aria-label="TRIO 3"></button>
+
+        <!-- BOOTCAMP -->
+        <button class="map-hotspot" data-kind="bootcamp" data-label="BOOTCAMP 1"
+                style="top: 49.5%; left: 51%;" aria-label="BOOTCAMP 1"></button>
+        <button class="map-hotspot" data-kind="bootcamp" data-label="BOOTCAMP 2"
+                style="top: 70%; left: 51%;" aria-label="BOOTCAMP 2"></button>
+
+        <!-- STANDART PC (2 зоны, если они у тебя отмечены) -->
+        <button class="map-hotspot" data-kind="standart" data-label="STANDART 1"
+                style="top: 58.5%; left: 51%;" aria-label="STANDART 1"></button>
+        <button class="map-hotspot" data-kind="standart" data-label="STANDART 2"
+                style="top: 35.8%; left: 52%;" aria-label="STANDART 2"></button>
+
+        <!-- STANDART PS / PS 1–2 -->
+        <button class="map-hotspot" data-kind="standartps" data-label="STANDART PS 1"
+                style="top: 11%; left: 51%;" aria-label="STANDART PS 1"></button>
+        <button class="map-hotspot" data-kind="standartps" data-label="STANDART PS 2"
+                style="top: 12%; left: 57%;" aria-label="STANDART PS 2"></button>
+
+        <!-- VIP PS -->
+        <button class="map-hotspot" data-kind="vipps" data-label="VIP PS"
+                style="top: 19%; left: 64%;" aria-label="VIP PS"></button>
+      </div>
+
+      <!-- Правая часть: карточка выбранной зоны -->
+      <div class="map-room-card" id="roomCard">
+        <div class="map-room-card-header">
+          <span class="map-room-badge" id="roomBadge">Зона</span>
+          <h3 class="map-room-title" id="roomTitle">Выберите зону на карте</h3>
+        </div>
+
+        <div class="map-room-body">
+          <!-- слева — железо / описание -->
+          <div class="map-room-specs" id="roomSpecs">
+            <p class="map-room-placeholder">
+              Нажмите на любую точку на схеме, чтобы посмотреть конфиг
+              и фото выбранной зоны.
+            </p>
+          </div>
+
+          <!-- справа — фото -->
+          <div class="map-room-photo">
+            <img id="roomPhoto" src="" alt="" style="opacity:0;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+  <!-- Price / Прайс -->
+<section id="price">
+  <div class="price-inner">
+    <div class="container">
+      <div class="price-content">
+        <h2 class="section-title">Прайс клуба</h2>
+        <p class="section-subtitle">
+          Актуальные тарифы по всем зонам. Стоимость указана в рублях за выбранное время.
+        </p>
+
+        <div class="price-tables">
+          <!-- Будни -->
+          <div class="price-table">
+            <div class="price-table-heading">
+              <span class="price-table-label">Будни</span>
+              <span class="price-table-sub">Пн–Пт</span>
+            </div>
+
+            <div class="price-table-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th rowspan="2">Зона / время</th>
+                    <th colspan="3">День</th>
+                    <th colspan="4">Вечер</th>
+                  </tr>
+                  <tr>
+                    <th>1ч</th>
+                    <th>3ч</th>
+                    <th>5ч</th>
+                    <th>1ч</th>
+                    <th>3ч</th>
+                    <th>5ч</th>
+                    <th>Ночь</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Standart</td>
+                    <td>155</td><td>420</td><td>640</td>
+                    <td>180</td><td>490</td><td>740</td><td>840</td>
+                  </tr>
+                  <tr>
+                    <td>Bootkemp</td>
+                    <td>200</td><td>540</td><td>820</td>
+                    <td>230</td><td>620</td><td>940</td><td>1080</td>
+                  </tr>
+                  <tr>
+                    <td>Trio</td>
+                    <td>230</td><td>620</td><td>940</td>
+                    <td>265</td><td>720</td><td>1090</td><td>1240</td>
+                  </tr>
+                  <tr>
+                    <td>Duo</td>
+                    <td>245</td><td>660</td><td>1000</td>
+                    <td>280</td><td>760</td><td>1150</td><td>1320</td>
+                  </tr>
+                  <tr>
+                    <td>Solo</td>
+                    <td>290</td><td>780</td><td>1190</td>
+                    <td>335</td><td>900</td><td>1370</td><td>1570</td>
+                  </tr>
+                  <tr>
+                    <td>Standart PS</td>
+                    <td>355</td><td>800</td><td>1240</td>
+                    <td>410</td><td>920</td><td>1440</td><td>1920</td>
+                  </tr>
+                  <tr>
+                    <td>Vip PS</td>
+                    <td>425</td><td>960</td><td>1490</td>
+                    <td>490</td><td>1100</td><td>1720</td><td>2300</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="price-footnote">
+              Пакет 3ч действует с <strong>8:00 до 20:00</strong>, после <strong>20:00 до 01:00</strong> он исчезает.
+            </div>
+          </div>
+
+          <!-- Выходные -->
+          <div class="price-table">
+            <div class="price-table-heading">
+              <span class="price-table-label">Выходные</span>
+              <span class="price-table-sub"> Сб–Вс / праздники</span>
+            </div>
+
+            <div class="price-table-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th rowspan="2">Зона / время</th>
+                    <th colspan="3">День</th>
+                    <th colspan="4">Вечер</th>
+                  </tr>
+                  <tr>
+                    <th>1ч</th>
+                    <th>3ч</th>
+                    <th>5ч</th>
+                    <th>1ч</th>
+                    <th>3ч</th>
+                    <th>5ч</th>
+                    <th>Ночь</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Standart</td>
+                    <td>180</td><td>490</td><td>740</td>
+                    <td>205</td><td>550</td><td>840</td><td>970</td>
+                  </tr>
+                  <tr>
+                    <td>Bootkemp</td>
+                    <td>230</td><td>620</td><td>940</td>
+                    <td>265</td><td>720</td><td>1090</td><td>1240</td>
+                  </tr>
+                  <tr>
+                    <td>Trio</td>
+                    <td>265</td><td>720</td><td>1090</td>
+                    <td>305</td><td>820</td><td>1250</td><td>1430</td>
+                  </tr>
+                  <tr>
+                    <td>Duo</td>
+                    <td>280</td><td>760</td><td>1150</td>
+                    <td>320</td><td>860</td><td>1310</td><td>1510</td>
+                  </tr>
+                  <tr>
+                    <td>Solo</td>
+                    <td>335</td><td>900</td><td>1370</td>
+                    <td>385</td><td>1040</td><td>1580</td><td>1810</td>
+                  </tr>
+                  <tr>
+                    <td>Standart PS</td>
+                    <td>410</td><td>920</td><td>1440</td>
+                    <td>470</td><td>1050</td><td>1650</td><td>2210</td>
+                  </tr>
+                  <tr>
+                    <td>Vip PS</td>
+                    <td>490</td><td>1100</td><td>1720</td>
+                    <td>565</td><td>1270</td><td>1980</td><td>2650</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="price-footnote">
+              Пакет 3ч действует с <strong>8:00 до 20:00</strong>, после <strong>20:00 до 01:00</strong> он исчезает.
+            </div>
+          </div>
+        </div>
+
+        <div class="price-note">
+          При бронировании через приложение возможны спецпредложения и акции.  
+          Точные условия и актуальные цены всегда смотрите в приложении COLIZEUM.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="section-divider"></div>
+
+  <section id="reviews">
+  <div class="container">
+    <h2 class="section-title">Отзывы гостей</h2>
+
+    <div class="reviews-rows">
+
+      <!-- линиия 1 -->
+      <div class="reviews-row row-1">
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-name">Станислав Ш.</div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-text">
+            Посетил данный компьютерный клуб недавно и остался очень доволен. Оборудование здесь современное и мощное — все игры работают без лагов и зависаний.
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-name">snezhka</div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-text">
+            Большой и уютный компьютерный клуб, есть все радости жизни, различные игры, удобные кресла, крутая плойка, горячая кухня, пицца 10/10🍕, кальяны дымные, множество вкусов😍
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-name">Андрей Суранов</div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-text">
+            Отличное место! Приходим с друзьями каждые выходные(как минимум). Атмосфера на высоком уровне, компьютеры наивысшего уровня и сборки, прекрасная аппаратура.
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-name">Ксения Григорьева</div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-text">
+            Суперский клуб! Мощные компы, удобные кресла, приветливый персонал. Атмосфера для игр отличная, чисто и комфортно. время пролетает незаметно – одназначно рекомендую!
+          </div>
+        </div>
+      </div>
+
+      <!-- линиия 2 -->
+      <div class="reviews-row row-2">
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-name">Олеся Мусатова</div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-text">
+            Супер игровое пространство!😍 Все очень понравилось,не смотря на то что только начинаю играть-мне хочется туда вернуться!!!!
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-name">Григорий К.</div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-text">
+            Техника не тупит, интернет стабильный. Атмосфера уютная, а персонал ребята здравые, спокойно искренне подскажут и помогут. Приятное место, куда хочется возвращаться.
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-name">Timur Drqkovich</div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-text">
+            Компьютерный клуб бомба, цены дешевые есть пс5 чтобы поиграть с друзьями, наличие напитков и снэков, довольно мощное железо за среднюю цену, гарнитура чистая выглядит новой не поношенной.
+          </div>
+        </div>
+                <div class="review-card">
+          <div class="review-header">
+            <div class="review-name">Дарья Д.</div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-text">
+            Самый лучший клуб города, админы все подсказали и показали, очень вежливые ребята 🫶 у них еще есть кальян и еда, за это отдельный плюс, все очень понравилось 👍 теперь только сюда
+          </div>
+          <div class="review-tag">Атмосфера</div>
+        </div>
+      </div>
+
+      <!-- линиия 3 -->
+      <div class="reviews-row row-3">
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-name">Анна Солнцева</div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-text">
+            Посетил данный компьютерный клуб, первые эмоции непередаваемые железо шикарное , большой выбор , сделано все очень стильно, компьютеры подбирают под разный бюджет, всем советую.
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-name">никита к.</div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-text">
+            Отличный новый компьютерный клуб, всё чисто, удобно, компьютеры мощные. Рекомендую к посещению.
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-name">Лалаьа Талала</div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-text">
+            отличное обслуживание везде чисто нет ни следов ни мусора ждал минуты 2 интерьер хороший компы топ тянут все игры
+          </div>
+        </div>
+                <div class="review-card">
+          <div class="review-header">
+            <div class="review-name">Виктория Мастерова</div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-text">
+            Супер место!🙂‍↕️ Админы приветливые и вежливые, приятно когда встречают с улыбкой. Компов куча по заполненности 0 проблем, випка супер, на два человека вообще шик 🥰
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+  <!-- Contacts / Контакты -->
+  <section id="contacts">
+    <div class="container">
+      <h2 class="section-title">Контакты</h2>
+
+      <div class="contacts-grid">
+        <div class="contacts-left">
+          <div class="contacts-item">
+            <div class="contacts-label">Телефон</div>
+            <div class="contacts-value"><a href="tel:+79990000000">+7 (925) 399-99-35</a></div>
+          </div>
+
+          <div class="contacts-item">
+            <div class="contacts-label">Адрес</div>
+            <div class="contacts-value">г. Раменское, ул. Советская, д. 2А</div>
+            <div class="contacts-extra">
+              Ориентир: Между домом быта и Конотеаторм "Юбилейный", основной вход сзади зданий, так же можно пройти через "РИВ ГОШ".
+            </div>
+          </div>
+
+          <div class="contacts-item">
+            <div class="contacts-label">Социальные сети</div>
+            <div class="contacts-socials">
+              <a class="social-pill" href="https://vk.com/colizeum_ramenskoe_sovetskaya" target="_blank">VK — COLIZEUM</a>
+              <a class="social-pill" href="https://t.me/colizeumRam" target="_blank">Telegram-канал</a>
+            </div>
+          </div>
+
+          <div class="contacts-item">
+            <div class="contacts-label">График работы</div>
+            <div class="contacts-value">24/7</div>
+          </div>
+
+          <div class="contacts-item">
+            <div class="contacts-label">Бронирование</div>
+            <div class="contacts-value">Только через официальное приложение</div>
+            <button class="btn btn-outline" data-open-app-modal style="margin-top: 8px;">Скачать приложение</button>
+          </div>
+        </div>
+
+        <div class="contacts-map">
+            <iframe
+                src="https://yandex.ru/map-widget/v1/?ll=38.228985%2C55.566038&mode=poi&poi%5Bpoint%5D=38.228778%2C55.566140&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D186514234513&z=19"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen
+            ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div>© COLIZEUM, 2025. Компьютерный клуб.</div>
+      <div class="footer-right">
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal: приложение -->
+<div class="modal-backdrop" id="appModal">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-title">Приложение COLIZEUM</div>
+      <button class="modal-close" id="modalClose" aria-label="Закрыть">×</button>
+    </div>
+    <div class="modal-body">
+      <p>
+        Бронирование игровых мест и VIP-комнаты осуществляется только через официальное приложение COLIZEUM.
+        Отсканируй QR-код или перейди по ссылке.
+      </p>
+      <div class="modal-qrs">
+        <div class="modal-qr">
+          <div class="modal-qr-placeholder">
+            <img src="img/apple-qr.png" alt="QR-код App Store">
+          </div>
+          <div>App Store</div>
+        </div>
+        <div class="modal-qr">
+          <div class="modal-qr-placeholder">
+            <img src="img/android-qr.png" alt="QR-код Google Play">
+          </div>
+          <div>Google Play</div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <!-- можешь сюда потом добавить мелкий текст, типа:
+           "Доступно в COLIZEUM по России" -->
+    </div>
+  </div>
+</div>
+<script src="script.js" defer></script>
+</body>
+</html>
